@@ -1,0 +1,28 @@
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+    /* The image used */
+    /* background-color: black; */
+
+}
+
+.tab{
+    /* height:1000px; */
+    background-image: url("images/bridge.jpg");
+    border:  20px solid white;
+    border-radius: 30px;
+
+    /* Set a specific height */
+    height: 800px;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: -20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}

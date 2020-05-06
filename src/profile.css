@@ -1,0 +1,32 @@
+.headshot {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: auto; */
+    margin: auto;
+ }
+ 
+.header{
+    /* background-color: darkgray; */
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+
+    background-image: url("images/mountain.jpg");
+
+    /* Set a specific height */
+    height: 800px;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    border:  20px solid white;
+    border-radius: 30px;
+    
+}
